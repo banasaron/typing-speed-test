@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    overflow: hidden;
+    background-color: #ddd;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    text-align: center;
+}
+#timer{
+    font-size: 3em;
+    font-family: Impact, sans-serif;
+}
+input{
+    width: 70%;
+    font-size: 1.3em;
+}
+p{
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+#reset{
+    width: 100px;
+    height: 63px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: cadetblue;
+    user-select: none;
+    cursor: pointer;
+}
+button{
+    text-transform: uppercase;
+    cursor: pointer;
+}
