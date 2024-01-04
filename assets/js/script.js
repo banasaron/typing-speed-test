@@ -16,7 +16,8 @@ const sentences = ["I can type at an impressive speed of 90 words per minute, en
 "I am adept at rapid keyboarding, maintaining a speed of 95 words per minute while maintaining accuracy and attention to detail.",
 "My typing pace of 130 keystrokes per minute reflects my commitment to swift and proficient data input.",
 "With a typing speed of 85 words per minute, I am able to tackle extensive documentation swiftly and accurately.",
-"I am proud to have developed a fast typing ability, consistently typing at 115 words per minute for optimal productivity."]
+"I am proud to have developed a fast typing ability, consistently typing at 115 words per minute for optimal productivity."];
+input.onpaste = e => e.preventDefault();
 function randomSentence(max){
     return Math.floor(Math.random() * max);
 }
